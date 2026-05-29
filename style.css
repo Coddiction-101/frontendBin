@@ -1,16 +1,16 @@
 body {
+  background-color: #eef1f7;
   margin: 0;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #eef1f7;
+  justify-content: center;
 }
 
 form {
-  background-color: #fafafafa;
-  width: 360px;
+  background-color: white;
   padding: 32px;
+  width: 360px;
   border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
