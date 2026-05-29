@@ -27,6 +27,7 @@ label {
   margin-bottom: 8px;
   color: #555;
   font-size: 14px;
+  font-weight: bold;
 }
 
 input {
@@ -35,5 +36,35 @@ input {
   box-sizing: border-box;
   border-radius: 6px;
   border: 1px solid #ddd;
+  font-size: 16px;
   margin-bottom: 24px;
 }
+
+button {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: center;
+  background-color: rgb(121, 121, 255);
+}
+
+p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p a {
+  text-decoration: none;
+  color: rgb(12, 57, 255);
+}
+
+a {
+  font-style: italic;
+}
+
