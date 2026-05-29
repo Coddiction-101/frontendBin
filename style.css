@@ -43,14 +43,12 @@ input {
 button {
   width: 100%;
   padding: 10px;
-  display: block;
-  align-items: center;
+
   color: #fff;
   border-radius: 10px;
   border: 1px solid #ddd;
   font-size: 15px;
   font-weight: bold;
-  justify-content: center;
   background-color: rgb(121, 121, 255);
 }
 
@@ -67,4 +65,3 @@ p a {
 a {
   font-style: italic;
 }
-
