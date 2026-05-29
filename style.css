@@ -67,6 +67,10 @@ a {
 }
 
 input:focus {
-    outline: none;
-    border-color: rgb(121, 121, 255);
+  outline: none;
+  border-color: rgb(121, 121, 255);
+}
+
+button:hover {
+  background-color: rgb(88, 88, 230);
 }
