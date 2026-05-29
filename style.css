@@ -43,7 +43,7 @@ input {
 button {
   width: 100%;
   padding: 10px;
-
+  cursor: pointer;
   color: #fff;
   border-radius: 10px;
   border: 1px solid #ddd;
