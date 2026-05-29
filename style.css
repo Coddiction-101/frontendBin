@@ -65,3 +65,8 @@ p a {
 a {
   font-style: italic;
 }
+
+input:focus {
+    outline: none;
+    border-color: rgb(121, 121, 255);
+}
