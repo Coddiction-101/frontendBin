@@ -3,99 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
-
-    <style>
-      table,
-      td,
-      th {
-        border: 1px solid #000;
-      }
-
-      table {
-        margin: 0 auto;
-        border-collapse: collapse;
-        width: 80%;
-        text-align: center;
-      }
-
-      th,
-      td {
-        padding: 10px;
-      }
-
-      th {
-        background-color: rgb(102, 90, 209);
-        color: rgb(238, 238, 238);
-      }
-
-      caption {
-        margin-bottom: 20px;
-        font-size: 1.5rem;
-        font-weight: bold;
-      }
-
-      tbody tr:hover {
-        background-color: #f2f2f2;
-      }
-
-      tbody tr:nth-child(even) {
-        background-color: #f7f7ff;
-        color: black;
-      }
-
-      .total-row {
-        font-weight: bold;
-        background-color: #e8e8ff;
-      }
-
-      td[rowspan] {
-        vertical-align: middle;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms</title>
   </head>
   <body>
-    <table>
-      <caption>
-        Students Details
-      </caption>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Age</th>
-          <th>Country</th>
-          <th>Batch</th>
-        </tr>
-      </thead>
+    <form>
+      <h1>Log in to your account</h1>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Enter your email"/>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password">
+      <p>Don't have an account? <a href="#">Sign up now</a></p>
+      <button type="submit">Sign in</button>
 
-      <tbody>
-        <tr>
-          <td>Aman</td>
-          <td>24</td>
-          <td>India</td>
-          <td rowspan="4">2026</td>
-        </tr>
-        <tr>
-          <td>Max</td>
-          <td>25</td>
-          <td>USA</td>
-        </tr>
-
-        <tr>
-          <td>Hina</td>
-          <td>26</td>
-          <td>Canada</td>
-        </tr>
-
-        <tr>
-          <td>Mahira</td>
-          <td>27</td>
-          <td>India</td>
-        </tr>
-        <tr class="total-row">
-          <td colspan="4">Total Students: 4</td>
-        </tr>
-      </tbody>
-    </table>
+     </form>
   </body>
 </html>
